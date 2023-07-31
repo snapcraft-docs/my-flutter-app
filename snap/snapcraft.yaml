@@ -1,4 +1,4 @@
-name: snapcraft-docs-flutter-app
+name: my-flutter-app
 version: '1.0'
 summary: Super Cool App
 description: Super Cool App that does everything!
@@ -7,12 +7,12 @@ confinement: strict
 grade: stable
 
 apps:
-  snapcraft-docs-flutter-app:
-    command: snapcraft_docs_flutter_app
+  my-flutter-app:
+    command: my_flutter_app
     extensions: [gnome]
 
 parts:
-  snapcraft-docs-flutter-app:
+  my-flutter-app:
     source: .
     plugin: flutter
     flutter-target: lib/main.dart
