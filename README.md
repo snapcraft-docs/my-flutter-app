@@ -1,8 +1,8 @@
-# super_cool_app
+# Snapcraft documentation Flutter app
 
 A new Flutter project.
 
-## Getting Started
+## Getting started
 
 This project is a starting point for a Flutter application.
 

@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=Super Cool App
-Comment=Super Cool App that does everything!
+Name=Example Flutter Snap
+Comment=Example Flutter application for Snapcraft
 Icon=${SNAP}/meta/gui/icon.png
-Exec=super-cool-app %U
+Exec=snapcraft-docs-flutter-app %U
 Terminal=false
 Type=Application
 Categories=Games;

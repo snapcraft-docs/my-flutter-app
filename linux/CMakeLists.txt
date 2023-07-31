@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
-set(BINARY_NAME "super_cool_app")
-set(APPLICATION_ID "com.example.super_cool_app")
+set(BINARY_NAME "snapcraft_docs_flutter_app")
+set(APPLICATION_ID "com.example.snapcraft_docs_flutter_app")
 
 cmake_policy(SET CMP0063 NEW)
 
