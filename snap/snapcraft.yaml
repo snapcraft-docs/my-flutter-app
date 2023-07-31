@@ -8,10 +8,6 @@ base: core22
 confinement: strict
 grade: stable
 
-architectures:
-  - build-on: [ amd64 ]
-  - build-on: [ arm64 ]
-
 apps:
   my-flutter-app:
     command: my_flutter_app
@@ -22,5 +18,13 @@ parts:
     source: .
     plugin: flutter
     flutter-target: lib/main.dart
+
+    # This appears to be needed when building in the Snap Store.
     build-packages:
       - curl
+
+# Limit the architectures to build for to prevent unnecessary builds on
+# architectures that Flutter doesn't support.
+architectures:
+  - build-on: [ amd64 ]
+  - build-on: [ arm64 ]
