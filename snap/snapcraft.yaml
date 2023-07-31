@@ -3,7 +3,7 @@ version: git
 summary: Super Cool App
 description: Super Cool App that does everything!
 confinement: strict
-base: core18  
+base: core22
 grade: stable
 architectures:
   - build-on: [ amd64 ]
@@ -12,7 +12,7 @@ architectures:
 apps:
   super-cool-app:
     command: super_cool_app
-    extensions: [flutter-stable]
+    extensions: [gnome]
 
 parts:
   super-cool-app:
